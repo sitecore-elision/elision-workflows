@@ -8,6 +8,14 @@ name: Approval
 master: {00000000-0000-0000-0000-000000000000}
 template: {4B7E2DA9-DE43-4C83-88C3-02F042031D04}
 templatekey: State
+created: 20160928T152708:636106732283730000
+
+----field----
+field: {A438DFD1-154E-4584-B7E3-D1E28315E415}
+name: Preview publishing targets
+key: preview publishing targets
+content-length: 0
+
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -27,13 +35,13 @@ content-length: 3
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
 key: __security
-content-length: 101
+content-length: 0
 
-ar|wddlweb\Content Manager|pe|+workflowState:write|+workflowState:delete|pd|+workflowCommand:execute|
+
 ----version----
 language: en
 version: 1
-revision: a6ea9c12-2ea9-407f-be71-d9fc74625980
+revision: ad81ce53-a715-4ec5-9f69-0f5a8b245130
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -62,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a6ea9c12-2ea9-407f-be71-d9fc74625980
+ad81ce53-a715-4ec5-9f69-0f5a8b245130
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160406T143006Z
+20161014T195952Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

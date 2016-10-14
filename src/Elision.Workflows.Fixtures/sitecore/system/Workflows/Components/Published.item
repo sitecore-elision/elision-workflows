@@ -8,6 +8,7 @@ name: Published
 master: {00000000-0000-0000-0000-000000000000}
 template: {4B7E2DA9-DE43-4C83-88C3-02F042031D04}
 templatekey: State
+created: 20160928T152708:636106732287830000
 
 ----field----
 field: {FB8ABC73-7ACF-45A0-898C-D3CCB889C3EE}
@@ -16,6 +17,13 @@ key: final
 content-length: 1
 
 1
+----field----
+field: {A438DFD1-154E-4584-B7E3-D1E28315E415}
+name: Preview publishing targets
+key: preview publishing targets
+content-length: 0
+
+
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -34,13 +42,13 @@ content-length: 3
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
 key: __security
-content-length: 193
+content-length: 93
 
-ar|sitecore\Author|pe|+workflowState:write|+workflowState:delete|pd|+workflowCommand:execute|ar|wddlweb\Content Author|pe|+workflowState:write|+workflowState:delete|pd|+workflowCommand:execute|
+ar|sitecore\Author|pe|+workflowState:write|+workflowState:delete|pd|+workflowCommand:execute|
 ----version----
 language: en
 version: 1
-revision: fe52632d-58bf-42aa-bc7e-2b12763c0d15
+revision: 0537a906-d90b-4a44-bb32-e4f4534bbb83
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fe52632d-58bf-42aa-bc7e-2b12763c0d15
+0537a906-d90b-4a44-bb32-e4f4534bbb83
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160406T142247Z
+20161014T195948Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
