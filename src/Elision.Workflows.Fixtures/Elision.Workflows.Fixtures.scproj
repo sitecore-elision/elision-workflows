@@ -35,6 +35,36 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageName>Elision.Workflows</PackageName>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
+    <NuGetExePath>..\.nuget</NuGetExePath>
+    <NuGetSummary />
+    <NuGetDescription>TDS Item Fixtures for Sitecore Development Accelerator Framework</NuGetDescription>
+    <NuGetTitle>Elision Workflows TDS Fixtures</NuGetTitle>
+    <NuGetVersion>1.0.0.0</NuGetVersion>
+    <NuGetPackageId>Sitecore.Elision.Workflows.Fixtures</NuGetPackageId>
+    <NuGetAuthors>JeffreyRondeau</NuGetAuthors>
+    <NuGetOwners>JeffreyRondeau</NuGetOwners>
+    <NuGetCopyright />
+    <NuGetLicenseUrl />
+    <NuGetIconUrl />
+    <NuGetProjectUrl>https://github.com/sitecore-elision/elision-workflows</NuGetProjectUrl>
+    <NuGetTags>sitecore elision</NuGetTags>
+    <NuGetReleaseNotes />
+    <NuGetLanguage />
+    <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
+    <NuGetDependencies />
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Elision.Workflows.Fixtures_Release.xml</ValidationSettingsFilePath>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
