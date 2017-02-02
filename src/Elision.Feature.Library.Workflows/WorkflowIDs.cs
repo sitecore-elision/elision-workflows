@@ -1,6 +1,6 @@
 using Sitecore.Data;
 
-namespace Elision.Workflows
+namespace Elision.Feature.Library.Workflows
 {
     public class WorkflowIDs
     {

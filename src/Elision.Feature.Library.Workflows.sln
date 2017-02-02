@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Workflows", "Elision.Workflows\Elision.Workflows.csproj", "{E4CFE8CE-6055-4038-89EF-DD677A937DB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Workflows", "Elision.Feature.Library.Workflows\Elision.Feature.Library.Workflows.csproj", "{E4CFE8CE-6055-4038-89EF-DD677A937DB1}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Workflows.Fixtures", "Elision.Workflows.Fixtures\Elision.Workflows.Fixtures.scproj", "{990D9711-02D7-4DB9-93D6-6C45AA17DC30}"
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Library.Workflows.Fixtures", "Elision.Feature.Library.Workflows.Fixtures\Elision.Feature.Library.Workflows.Fixtures.scproj", "{990D9711-02D7-4DB9-93D6-6C45AA17DC30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

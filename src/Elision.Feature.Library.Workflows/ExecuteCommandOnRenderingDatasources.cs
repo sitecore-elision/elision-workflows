@@ -12,7 +12,7 @@ using Sitecore.Web;
 using Sitecore.Workflows;
 using Sitecore.Workflows.Simple;
 
-namespace Elision.Workflows
+namespace Elision.Feature.Library.Workflows
 {
     public class ExecuteCommandOnRenderingDatasources
     {

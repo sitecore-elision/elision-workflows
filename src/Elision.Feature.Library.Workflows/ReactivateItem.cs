@@ -2,9 +2,9 @@ using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Workflows.Simple;
 
-namespace Elision.Workflows
+namespace Elision.Feature.Library.Workflows
 {
-    public class UnpublishItem : PublishAction
+    public class ReactivateItem : PublishAction
     {
         public new void Process(WorkflowPipelineArgs args)
         {
@@ -14,7 +14,7 @@ namespace Elision.Workflows
 
             using (new EditContext(args.DataItem))
             {
-                args.DataItem.Publishing.NeverPublish = true;
+                args.DataItem.Publishing.NeverPublish = false;
             }
             base.Process(args);
         }
