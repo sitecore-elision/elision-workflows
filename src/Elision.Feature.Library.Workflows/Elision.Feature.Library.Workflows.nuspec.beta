@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Elision.Feature.Workflows-redist</id>
+    <version>$version$</version>
+    <title>Elision Workflows Feature for Sitecore Redist</title>
+    <authors>jrondeau,PatrickDelancy</authors>
+    <owners>jrondeau</owners>
+    <projectUrl>https://github.com/sitecore-elision/elision-workflows</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the Elision workflows feature package to reference if you are building a module or other code that just needs to reference Elision workflows feature. If you need to install Elision's workflows feature, use the Elision.Feature.Workflows package instead.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>sitecore elision feature workflows</tags>
+  </metadata>
+</package>
