@@ -7,9 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>990d9711-02d7-4db9-93d6-6c45aa17dc30</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>..\Elision.Workflows</SourceWebPhysicalPath>
-    <SourceWebProject>{e4cfe8ce-6055-4038-89ef-dd677a937db1}|Elision.Workflows\Elision.Workflows.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/Elision.Workflows.csproj</SourceWebVirtualPath>
+    <SourceWebPhysicalPath>..\Elision.Feature.Library.Workflows</SourceWebPhysicalPath>
+    <SourceWebProject>{e4cfe8ce-6055-4038-89ef-dd677a937db1}|Elision.Feature.Library.Workflows\Elision.Feature.Library.Workflows.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Elision.Feature.Library.Workflows.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -23,6 +23,8 @@
     <ManageRoles>False</ManageRoles>
     <SitecoreDatabase>master</SitecoreDatabase>
     <AssemblyStatus>Include</AssemblyStatus>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,10 +37,10 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Elision.Workflows</PackageName>
+    <PackageName>Elision.Feature.Workflows.Fixtures</PackageName>
     <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
     <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
-    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageVersion>0.0.1</PackageVersion>
     <PackageReadme />
     <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
@@ -48,17 +50,17 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Item Fixtures for Sitecore Development Accelerator Framework</NuGetDescription>
-    <NuGetTitle>Elision Workflows TDS Fixtures</NuGetTitle>
-    <NuGetVersion>1.0.0.0</NuGetVersion>
-    <NuGetPackageId>Sitecore.Elision.Workflows.Fixtures</NuGetPackageId>
-    <NuGetAuthors>JeffreyRondeau</NuGetAuthors>
-    <NuGetOwners>JeffreyRondeau</NuGetOwners>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Workflows.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetTitle>Elision.Feature.Workflows TDS Fixtures</NuGetTitle>
+    <NuGetVersion>0.0.1</NuGetVersion>
+    <NuGetPackageId>Sitecore.Elision.Feature.Workflows.Fixtures</NuGetPackageId>
+    <NuGetAuthors>jrondeau</NuGetAuthors>
+    <NuGetOwners>jrondeau</NuGetOwners>
     <NuGetCopyright />
     <NuGetLicenseUrl />
     <NuGetIconUrl />
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision-workflows</NuGetProjectUrl>
-    <NuGetTags>sitecore elision</NuGetTags>
+    <NuGetTags>sitecore elision feature workflow workflows tds fixtures</NuGetTags>
     <NuGetReleaseNotes />
     <NuGetLanguage />
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
@@ -75,13 +77,10 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Elision.Workflows\Elision.Workflows.csproj">
+    <ProjectReference Include="..\Elision.Feature.Library.Workflows\Elision.Feature.Library.Workflows.csproj">
       <Project>{e4cfe8ce-6055-4038-89ef-dd677a937db1}</Project>
-      <Name>Elision.Workflows</Name>
+      <Name>Elision.Feature.Library.Workflows</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ExcludedAssemblies Include="Elision.Workflows.dll" />
   </ItemGroup>
   <ItemGroup>
     <SitecoreItem Include="sitecore\system.item">
@@ -125,12 +124,18 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Elision.Workflows.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
-  <Import Project="..\packages\HedgehogDevelopment.TDS.5.5.0.11\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.11\build\HedgehogDevelopment.TDS.targets')" />
+  <Import Project="..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.11\build\HedgehogDevelopment.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HedgehogDevelopment.TDS.5.5.0.11\build\HedgehogDevelopment.TDS.targets'))" />
+    <Error Condition="!Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets'))" />
   </Target>
 </Project>
