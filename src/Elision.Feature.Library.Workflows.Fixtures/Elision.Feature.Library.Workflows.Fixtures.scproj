@@ -37,7 +37,7 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Elision.Feature.Workflows.Fixtures</PackageName>
+    <PackageName>Elision.Feature.Library.Workflows.Fixtures</PackageName>
     <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
     <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
     <PackageVersion>0.0.1</PackageVersion>
