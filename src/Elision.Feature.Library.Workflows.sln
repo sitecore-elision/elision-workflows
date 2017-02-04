@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{E618F0E5-5
 		TdsGlobal.config = TdsGlobal.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{B403B0DB-9899-480E-9A4A-3EC27F1BD1CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{990D9711-02D7-4DB9-93D6-6C45AA17DC30} = {B403B0DB-9899-480E-9A4A-3EC27F1BD1CB}
 	EndGlobalSection
 EndGlobal
