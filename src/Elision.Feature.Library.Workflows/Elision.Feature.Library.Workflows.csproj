@@ -170,6 +170,10 @@
       <HintPath>..\packages\Sitecore.NVelocity.8.2.161221\lib\NET452\Sitecore.NVelocity.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Update, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Update.NoReferences.8.2.161221\lib\NET452\Sitecore.Update.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
