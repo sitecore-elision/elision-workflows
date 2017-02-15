@@ -8,7 +8,7 @@
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-workflows</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This is the Elision workflows feature package to reference if you need to install the entire feature. If you are building a module or other code that just needs to reference Elision workflows feature, use the Elision.Feature.Workflows-redist package instead.</description>
+    <description>This package contains a workflow for use on component rendering datasources.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>sitecore elision feature workflows</tags>

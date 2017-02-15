@@ -234,7 +234,6 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Elision.Feature.Library.Workflows.nuspec" />
-    <None Include="Elision.Feature.Library.Workflows.nuspec.beta" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
