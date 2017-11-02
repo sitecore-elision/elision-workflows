@@ -9,4 +9,5 @@
 - release: [![Build status](https://ci.appveyor.com/api/projects/status/embbd63c0i2iiffn/branch/release?svg=true)](https://ci.appveyor.com/project/SitecoreElision/elision-workflows-aejo5/branch/release)
 
 
-- master: N/A
+- master: [![Build status](https://ci.appveyor.com/api/projects/status/1buyarvlqako016c?svg=true)](https://ci.appveyor.com/project/SitecoreElision/elision-workflows-8mjxc)
+
