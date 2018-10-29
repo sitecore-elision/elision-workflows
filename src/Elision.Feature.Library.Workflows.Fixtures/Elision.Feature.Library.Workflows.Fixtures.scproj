@@ -51,7 +51,7 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Workflows.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Workflows.  Compatible with Sitecore 9.</NuGetDescription>
     <NuGetTitle>Elision.Feature.Workflows TDS Fixtures</NuGetTitle>
     <NuGetVersion>0.0.1</NuGetVersion>
     <NuGetPackageId>Sitecore.Elision.Feature.Workflows.Fixtures</NuGetPackageId>
@@ -92,35 +92,47 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Workflows\Components.item">
+    <SitecoreItem Include="sitecore\system\Workflows\Elision.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Workflows\Components\Approval.item">
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows\Components.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Workflows\Components\Approval\Reject.item">
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows\Components\Approval.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Workflows\Components\Approval\Submit.item">
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows\Components\Approval\Reject.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Workflows\Components\Edit.item">
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows\Components\Approval\Submit.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Workflows\Components\Edit\Submit.item">
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows\Components\Edit.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Workflows\Components\Published.item">
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows\Components\Edit\Submit.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Workflows\Components\Published\Auto Publish.item">
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows\Components\Published.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Workflows\Elision\Feature\ElisionFeatureLibraryWorkflows\Components\Published\Auto Publish.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

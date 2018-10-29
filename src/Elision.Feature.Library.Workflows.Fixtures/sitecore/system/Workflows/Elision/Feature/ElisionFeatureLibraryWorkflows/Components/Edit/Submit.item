@@ -1,22 +1,22 @@
 ----item----
 version: 1
-id: {070182C2-D5B6-4441-A63A-769697DA6DBC}
+id: {30C62AAA-15D3-46CB-B669-18A315224D0B}
 database: master
-path: /sitecore/system/Workflows/Components
-parent: {05592656-56D7-4D85-AACF-30919EE494F9}
-name: Components
+path: /sitecore/system/Workflows/Elision/Feature/ElisionFeatureLibraryWorkflows/Components/Edit/Submit
+parent: {A4E0B8D0-E92E-4531-8853-81F0056DBE77}
+name: Submit
 master: {00000000-0000-0000-0000-000000000000}
-template: {1C0ACC50-37BE-4742-B43C-96A07A7410A5}
-templatekey: Workflow
-created: 20160928T152708:636106732282170000
+template: {CB01F9FC-C187-46B3-AB0B-97A8468D8303}
+templatekey: Command
+created: 20180928T175923Z
 
 ----field----
-field: {B5166B38-E4BF-4410-953C-2037F2BF6A56}
-name: Initial state
-key: initial state
+field: {DCBEBC58-6124-4100-A248-FC717D6C78D5}
+name: Next state
+key: next state
 content-length: 38
 
-{A4E0B8D0-E92E-4531-8853-81F0056DBE77}
+{D3F6DDED-BCD6-4078-957D-FFBA45BC0CA7}
 ----field----
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
@@ -27,7 +27,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: e62ac7cb-63d2-4cf1-89e6-896dda65d823
+revision: 517ec72c-6a06-4187-8f72-0dc8c8a6c20e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,21 +35,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150206T043901Z
+20150206T044127Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e62ac7cb-63d2-4cf1-89e6-896dda65d823
+517ec72c-6a06-4187-8f72-0dc8c8a6c20e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161014T195839Z
+20160211T204956Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

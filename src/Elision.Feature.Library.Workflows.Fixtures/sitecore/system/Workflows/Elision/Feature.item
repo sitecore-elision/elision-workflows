@@ -1,32 +1,26 @@
 ----item----
 version: 1
-id: {30C62AAA-15D3-46CB-B669-18A315224D0B}
+id: {07569104-698B-4E5D-B39A-7B67F95D54B7}
 database: master
-path: /sitecore/system/Workflows/Components/Edit/Submit
-parent: {A4E0B8D0-E92E-4531-8853-81F0056DBE77}
-name: Submit
+path: /sitecore/system/Workflows/Elision/Feature
+parent: {FE0B1D7F-343E-49C7-B18C-FEEA4C635234}
+name: Feature
 master: {00000000-0000-0000-0000-000000000000}
-template: {CB01F9FC-C187-46B3-AB0B-97A8468D8303}
-templatekey: Command
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+created: 20181026T181022Z
 
 ----field----
-field: {DCBEBC58-6124-4100-A248-FC717D6C78D5}
-name: Next state
-key: next state
-content-length: 38
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
 
-{D3F6DDED-BCD6-4078-957D-FFBA45BC0CA7}
-----field----
-field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
-name: __Security
-key: __security
-content-length: 0
-
-
+elision.foundation/32x32/elision.png
 ----version----
 language: en
 version: 1
-revision: 517ec72c-6a06-4187-8f72-0dc8c8a6c20e
+revision: f17f2f6e-0712-4e32-9830-8275e74205ab
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +28,28 @@ name: __Created
 key: __created
 content-length: 16
 
-20150206T044127Z
+20181026T181022Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-517ec72c-6a06-4187-8f72-0dc8c8a6c20e
+f17f2f6e-0712-4e32-9830-8275e74205ab
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160211T204956Z
+20181026T181051Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
