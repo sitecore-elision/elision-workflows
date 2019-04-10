@@ -2,9 +2,9 @@
 version: 1
 id: {070182C2-D5B6-4441-A63A-769697DA6DBC}
 database: master
-path: /sitecore/system/Workflows/Elision/Feature/ElisionFeatureLibraryWorkflows/Components
-parent: {0FE3810A-73CF-4FF2-B973-A8699E8D1185}
-name: Components
+path: /sitecore/system/Workflows/Elision Component Workflow
+parent: {05592656-56D7-4D85-AACF-30919EE494F9}
+name: Elision Component Workflow
 master: {00000000-0000-0000-0000-000000000000}
 template: {1C0ACC50-37BE-4742-B43C-96A07A7410A5}
 templatekey: Workflow
@@ -27,7 +27,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 87a51c9b-b9f3-4587-bfa4-78f63c0dfce2
+revision: 9e838d59-faef-41c4-b059-9c552ea5a047
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-87a51c9b-b9f3-4587-bfa4-78f63c0dfce2
+9e838d59-faef-41c4-b059-9c552ea5a047
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20181026T181204Z
+20190409T163028Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

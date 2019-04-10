@@ -1,41 +1,41 @@
 ----item----
 version: 1
-id: {0FE3810A-73CF-4FF2-B973-A8699E8D1185}
+id: {2FAAE663-87DB-4743-B9B6-EF154633B824}
 database: master
-path: /sitecore/system/Workflows/Elision/Feature/ElisionFeatureLibraryWorkflows
-parent: {07569104-698B-4E5D-B39A-7B67F95D54B7}
-name: ElisionFeatureLibraryWorkflows
+path: /sitecore/system/Workflows/Elision Component Workflow/Approval/Submit
+parent: {D3F6DDED-BCD6-4078-957D-FFBA45BC0CA7}
+name: Submit
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
-created: 20181026T181109Z
+template: {CB01F9FC-C187-46B3-AB0B-97A8468D8303}
+templatekey: Command
+created: 20180928T175923Z
 
 ----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 36
+field: {DCBEBC58-6124-4100-A248-FC717D6C78D5}
+name: Next state
+key: next state
+content-length: 38
 
-elision.foundation/32x32/elision.png
+{699761B2-9BB9-4492-8E32-9B29C0F9A533}
 ----version----
 language: en
 version: 1
-revision: 47031e93-3988-4fbe-b246-210c1a7bd15e
+revision: 0ea9f58b-3afe-41d1-a26e-3eed912612c1
 
 ----field----
-field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
-name: __Display name
-key: __display name
-content-length: 33
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
 
-Elision.Feature.Library.Workflows
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 16
+content-length: 15
 
-20181026T181022Z
+20151023T120032
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-47031e93-3988-4fbe-b246-210c1a7bd15e
+0ea9f58b-3afe-41d1-a26e-3eed912612c1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 16
+content-length: 34
 
-20181026T181155Z
+20151023T120101:635811984617200767
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

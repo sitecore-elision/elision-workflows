@@ -2,7 +2,7 @@
 version: 1
 id: {A4E0B8D0-E92E-4531-8853-81F0056DBE77}
 database: master
-path: /sitecore/system/Workflows/Elision/Feature/ElisionFeatureLibraryWorkflows/Components/Edit
+path: /sitecore/system/Workflows/Elision Component Workflow/Edit
 parent: {070182C2-D5B6-4441-A63A-769697DA6DBC}
 name: Edit
 master: {00000000-0000-0000-0000-000000000000}

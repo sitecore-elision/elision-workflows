@@ -2,7 +2,7 @@
 version: 1
 id: {30C62AAA-15D3-46CB-B669-18A315224D0B}
 database: master
-path: /sitecore/system/Workflows/Elision/Feature/ElisionFeatureLibraryWorkflows/Components/Edit/Submit
+path: /sitecore/system/Workflows/Elision Component Workflow/Edit/Submit
 parent: {A4E0B8D0-E92E-4531-8853-81F0056DBE77}
 name: Submit
 master: {00000000-0000-0000-0000-000000000000}

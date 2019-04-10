@@ -2,7 +2,7 @@
 version: 1
 id: {D3F6DDED-BCD6-4078-957D-FFBA45BC0CA7}
 database: master
-path: /sitecore/system/Workflows/Elision/Feature/ElisionFeatureLibraryWorkflows/Components/Approval
+path: /sitecore/system/Workflows/Elision Component Workflow/Approval
 parent: {070182C2-D5B6-4441-A63A-769697DA6DBC}
 name: Approval
 master: {00000000-0000-0000-0000-000000000000}

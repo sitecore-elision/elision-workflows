@@ -1,33 +1,40 @@
 ----item----
 version: 1
-id: {73C4B843-2CE9-4FFC-991D-A09A847D5BD3}
+id: {F9EC2D3D-595C-48DE-8ADB-B720EA2D74ED}
 database: master
-path: /sitecore/system/Workflows/Elision/Feature/ElisionFeatureLibraryWorkflows/Components/Approval/Reject
-parent: {D3F6DDED-BCD6-4078-957D-FFBA45BC0CA7}
-name: Reject
+path: /sitecore/system/Workflows/Elision Component Workflow/Published/Auto Publish
+parent: {699761B2-9BB9-4492-8E32-9B29C0F9A533}
+name: Auto Publish
 master: {00000000-0000-0000-0000-000000000000}
-template: {CB01F9FC-C187-46B3-AB0B-97A8468D8303}
-templatekey: Command
+template: {66882E97-C8AA-4E37-8901-7A8AA35ED2ED}
+templatekey: Action
 created: 20180928T175923Z
 
 ----field----
-field: {DCBEBC58-6124-4100-A248-FC717D6C78D5}
-name: Next state
-key: next state
-content-length: 38
+field: {A291A22B-99E2-46BB-A27B-8EC744275396}
+name: Type
+key: type
+content-length: 56
 
-{A4E0B8D0-E92E-4531-8853-81F0056DBE77}
+Sitecore.Workflows.Simple.PublishAction, Sitecore.Kernel
+----field----
+field: {1507131D-CEE3-49E9-AF32-DE5403A37B49}
+name: Parameters
+key: parameters
+content-length: 16
+
+deep=1&related=1
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 35
+content-length: 27
 
-Applications/16x16/nav_left_red.png
+Network/16x16/earth_add.png
 ----version----
 language: en
 version: 1
-revision: f0284f66-89b6-405d-98e5-06c52c66700b
+revision: 2d198401-07d2-4dd3-8d71-be7da5ef0ce8
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -40,9 +47,9 @@ sitecore\admin
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 35
 
-20151023T120151
+20150206T044206:635587945269019482Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f0284f66-89b6-405d-98e5-06c52c66700b
+2d198401-07d2-4dd3-8d71-be7da5ef0ce8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20151023T120239:635811985590307591
+20150206T044226:635587945462362718Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
